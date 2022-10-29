@@ -1,0 +1,4 @@
+.hamburger.active .bar::after{transform:translateY(4px) rotate(45deg);}
+.hamburger.active .bar::before{transform:translateY(-4px) rotate(-45deg);}
+.height_auto{ height: 200px;}
+
