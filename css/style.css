@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 *{margin: 0;padding: 0;outline: none; box-sizing: border-box; font-family: 'Ubuntu', sans-serif;}
-    body,html {height: 100%;background-image: url(../img/grunge-old-vintage-retro-paper-texture-background_47840-948.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;height: 1040px;overflow-x: hidden;}
+    body,html {height: 100%;overflow-x: hidden;}
     img {
         width: auto;
         height: auto;
@@ -24,6 +24,7 @@
         --ancor-color: #ffffff;
       }
 main,header,section,footer{float: left;width: 100%;}
+main{background-image: url(../img/grunge-old-vintage-retro-paper-texture-background_47840-948.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;overflow-x: hidden;}
 a{text-decoration: none;}
 
 .cover{position: absolute; height: 100vh;width: 100vw;background-color: #ffffff;display: flex;align-items: center;justify-content: center; 
@@ -44,7 +45,6 @@ a{text-decoration: none;}
 .container{
     float: left;
     width: 100%;
-    height: 100vh;
 }
 .container h3{margin-bottom: 25px;margin-top: 100px;}
 .fir{padding: 10px 0 20px 0;}
@@ -70,7 +70,7 @@ span{color: #373446;}
     0%{opacity: 1;}
     10%{opacity: 1;}
     80%{opacity: 0; }
-    100%{left: 2000px;}
+    100%{top: -2000px;}
 }
 
 
